@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg-custom-color {
+  background: linear-gradient(
+    150deg,
+    rgba(11, 11, 11, 1),
+    rgba(22, 22, 24, 1),
+    rgba(11, 54, 182, 1)
+  );
+}
+.bg-btn-green {
+  background: rgba(28, 171, 85, 1);
+}
+.btnborders {
+  border-bottom: 3px solid rgba(20, 119, 59, 1);
+}
+.cardtwo {
+  background: linear-gradient(
+    330deg,
+    rgba(11, 11, 11, 1),
+    rgba(22, 22, 24, 1),
+    rgba(11, 54, 182, 1)
+  );
+}
+.cardthree {
+  background: linear-gradient(
+    30deg,
+    rgba(11, 11, 11, 1),
+    rgba(22, 22, 24, 1),
+    rgba(11, 54, 182, 1)
+  );
+}
+.cardfour {
+  background: linear-gradient(
+    60deg,
+    rgba(11, 11, 11, 1),
+    rgba(22, 22, 24, 1),
+    rgba(11, 54, 182, 1)
+  );
+}
+.btn-border-red {
+  border-bottom: 3px solid #40141b;
+}
+.dis {
+  clip-path: polygon(
+    25% 0%,
+    100.1% 0%,
+    100.1% 49.5%,
+    100.1% 100.3%,
+    25% 100%,
+    16.8% 49.5%
+  );
+}
+.institute-success-content {
+  box-shadow: 20px 20px 60px 0 rgba(139, 168, 211, 0.08);
+  align-items: center;
+  background: url(/success-bg.png);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 500px;
+  padding: 50px 0;
+  text-align: center;
+}
